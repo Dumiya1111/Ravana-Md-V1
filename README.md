@@ -56,13 +56,13 @@
 ```
 mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
 ```
-3.  ***Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)***
+3.  ***Click [FORK](https://github.com/dayanisuru/Secktor-MD/fork)***
 ## Heroku Deployment Method
 4.  ***Deploy on [Heroku](https://citel-x.herokuapp.com/heroku)***
 ## Koyeb Deployment Method
-5. ***[Deploy on Koyeb](https://citel-x.herokuapp.com/koyeb) and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
+5. ******[Deploy 🌹 koyeb](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/dayanisuru/Secktor-Md&branch=main&env[SESSION_ID]=&env[OWNER_NUMBER]=&env[MONGODB_URI]=&env[OWNER_NAME]&env[KOYEB_API]=&env[PREFIX]=.&env[email]=isurudayan2001@gmail.com&env[FAKE_COUNTRY_CODE]=92&env[READ_MESSAGE]=false&env[DISABLE_PM]=false&env[WORKTYPE]=private&env[THEME]=SECKTOR&env[PACK_INFO]=Sam;Pandey&env[KOYEB_NAME]=secktorbot&env[PORT]=8000&ports=8000;http;/).*** and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
 
-6. ***Also Deploy on [Replit]( https://repl.it/github/SamPandey001/Secktor-Md)***
+6. ***Also Deploy on [Replit]( https://repl.it/github/dayanisuru/Secktor-Md)***
 
 If ***RUN*** Doesn't work, paste these commands in repl shell
 
