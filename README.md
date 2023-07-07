@@ -33,6 +33,18 @@
 </p>
  
  
+
+
+
+***[Deploy 🌹 koyeb](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/dayanisuru/Secktor-Md&branch=main&env[SESSION_ID]=&env[OWNER_NUMBER]=&env[MONGODB_URI]=&env[OWNER_NAME]&env[KOYEB_API]=&env[PREFIX]=.&env[email]=isurudayan2001@gmail.com&env[FAKE_COUNTRY_CODE]=92&env[READ_MESSAGE]=false&env[DISABLE_PM]=false&env[WORKTYPE]=private&env[THEME]=SECKTOR&env[PACK_INFO]=Sam;Pandey&env[KOYEB_NAME]=secktorbot&env[PORT]=8000&ports=8000;http;/).***
+
+
+
+
+
+
+
+ 
 - Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
 ## Deployment Methods
 ---
