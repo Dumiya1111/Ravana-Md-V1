@@ -28,7 +28,7 @@ cmd({
             let fids = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${text}&plot=full`);
             let imdbt = "";
             console.log(fids.data)
-            imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` 𝕀𝕄𝔻𝔹 𝕊𝔼𝔸ℝℂℍ```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
+            imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` 𝕄𝕆𝕍𝕀𝔼 𝕊𝔼𝔸ℝℂℍ```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
             imdbt += "🎬Title      : " + fids.data.Title + "\n";
             imdbt += "📅Year       : " + fids.data.Year + "\n";
             imdbt += "⭐Rated      : " + fids.data.Rated + "\n";
@@ -45,7 +45,8 @@ cmd({
             imdbt += "📦BoxOffice  : " + fids.data.BoxOffice + "\n";
             imdbt += "🏙️Production : " + fids.data.Production + "\n";
             imdbt += "🌟imdbRating : " + fids.data.imdbRating + "\n";
-            imdbt += "❎imdbVotes  : " + fids.data.imdbVotes + "";
+            imdbt += "❎imdbVotes  : " + fids.data.imdbVotes + "\n";
+            imdbt += "════════════════\n" + " ```☠☠☠  𝙆𝙄𝙉𝙂 𝙄𝙎𝙐𝙒𝘼 𝘽𝙊𝙏 ☠☠☠```\n" + "════════════════\n";
             Void.sendMessage(citel.chat, {
                 image: {
                     url: fids.data.Poster,
@@ -205,12 +206,12 @@ cmd({
         pattern: "iswa",
         category: "search",
         desc: "Searches in given rage about given number.",
-        use: '9112345678xx',
+        use: '94783800632xx',
         filename: __filename,
     },
     async(Void, citel, text) => {
         var inputnumber = text.split(" ")[0]
-        if (!inputnumber.includes('x')) return citel.reply('You did not add x\nExample: iswa 9196285162xx')
+        if (!inputnumber.includes('x')) return citel.reply('You did not add x\nExample: iswa 94783800632xx')
         citel.reply(`Searching for WhatsApp account in given range...`)
 
         function countInstances(string, word) {
