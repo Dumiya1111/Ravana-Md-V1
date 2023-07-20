@@ -1,23 +1,19 @@
 {
-  "name": "Ravana-Md",
-  "description": "Ravana Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://camo.githubusercontent.com/123456789.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "RavanaBot", "Ravana","RavanaMD","theme bot","multi device","baileys","dayan isuru"],
+  "name": "Dragon-MD-V4",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better",
+  "logo": "https://i.ibb.co/wRgDy33/20221104-225109.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Dragon-MD-V4", "DragonBot", "Dragon","DragonMD","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Eren Yeager"
+      "value": "Mr.Ameesha"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
      "required" :false
     },
-    "AUTO_STATUS_SAVER": {
-      "description": "Automatically saves status of every person and sends in log number.",
-       "required" :false
-      },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
      "required" :false
@@ -26,9 +22,24 @@
     "description": "Put HEROKU APP NAME same as above.",
      "required" :false
     },
-   "THUMB_IMAGE": {
+    "AUTO_STATUS_SAVER": {
+      "description": "Automatically saves status of every person and sends in log number.",
+       "value": "false",
+       "required" :false
+      },
+    "AUTO_BIO": {
+      "description": "Automatically change bot bio",
+       "value": "false",
+       "required" :false
+      },
+    "ALWAYS_ONLINE": {
+       "description": "always show bot online.",
+       "value": "true",
+       "required" :false
+      },
+   "ALIVE_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://camo.githubusercontent.com/123456789.jpg"
+     "value": "https://i.ibb.co/NF7FbF2/20230604-132133.png"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -43,11 +54,6 @@
     "description": "Put action for antilink",
      "value": "remove",
      "required" :false
-    },
-  "LEVEL_UP_MESSAGE": {
-    "description": "Fill the value true if you want bot send Level up message in chat.",
-     "required" :false,
-     "value": "true"
     },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
@@ -64,7 +70,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94776312185"
+       "value": "94767453646"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "
@@ -75,25 +81,26 @@
        "required" :false
   },
   "MONGODB_URI": {
-    "description": "A secret String for Mongodb Connection.(Required),change for better experience",
-    "value": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
+    "description": "A secret String for Mongodb Connection.(Replace for better experience)",
+    "value": "",
+    "required" :false
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are RAVANA,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "RAVANA"
+    "description": "Put the theme name you want to use. Avilable themes are SI , EN",
+     "value": "SI"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
          "value": "public"
   },
-      "AUTO_REACTION": {
-    "description": "Reacts emoji to all commands.",
-     "value": "false",
-     "required": false 
-  },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "SamPandey001;Secktor",
+     "value": "Ameesha;Dragon-MD",
+     "required": false 
+  },
+  "CAPTION": {
+    "description": "Put Your Caption.",
+     "value": "_*🪄 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐎𝐮𝐫 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🪄*_ \nhttps://youtube.com/@Dragon-MD-OFC",
      "required": false 
   },
   "heroku": {
