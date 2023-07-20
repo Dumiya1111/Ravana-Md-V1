@@ -16,6 +16,14 @@
   </a>
 </p>
 
+
+
+## Heroku Deployment Method
+[![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/TechwithAmee1/Dragon-MD-V4&template=https://github.com/daysnisuru/Ravana-Md.git)
+
+
+
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://https://github.com/dayanisuru/Ravana-Md)
 ---------
 
