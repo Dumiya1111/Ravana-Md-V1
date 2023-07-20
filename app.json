@@ -1,7 +1,6 @@
 {
   "name": "Ravana-Md",
   "description": "Ravana Whatsapp md bot built in NodeJs to make experience better",
-  "repository": "https://github.com/dayanisuru/Ravana-Md",
   "logo": "https://camo.githubusercontent.com/123456789.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "RavanaBot", "Ravana","RavanaMD","theme bot","multi device","baileys","dayan isuru"],
   "success_url": "/",
