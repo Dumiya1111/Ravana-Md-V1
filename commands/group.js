@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: Secktor-Support*\n*Group Link:* https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbC`,
+            caption: `*Group Name: 𝐑𝐀𝐕𝐀𝐍𝐀-𝐌𝐃-𝐒𝐔𝐏𝐏𝐎𝐑𝐓*\n*𝐆𝐑𝐔𝐎𝐏 Link:* https://chat.whatsapp.com/JpTSogcUnpTHzpxyMWdeVY`,
         });
 
     }
@@ -134,7 +134,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
     cmd({
-        pattern: "ujid",
+        pattern: "jid",
         desc: "get jid of all user in a group.",
         category: "owner",
         filename: __filename,
@@ -154,7 +154,7 @@ cmd({
 
     //---------------------------------------------------------------------------
 cmd({
-        pattern: "tagall",
+        pattern: "tag",
         desc: "Tags every person of group.",
         category: "group",
         filename: __filename,
@@ -221,7 +221,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "retrive",
+            pattern: "tov",
             desc: "Copies and Forwords viewonce message.",
             category: "group",
             filename: __filename,
@@ -287,7 +287,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "profile",
+            pattern: "p",
             desc: "Shows profile of user.",
             category: "group",
             filename: __filename,
@@ -731,7 +731,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "getjids",
+            pattern: "jid1",
             desc: "Sends chat id of every groups.",
             category: "group",
             filename: __filename,
@@ -994,6 +994,8 @@ cmd({ on: "text" }, async(Void, citel) => {
 ║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ║ *📍Role*: *${role}*
 ║ *Enjoy🥳*
+║           *_𝐑𝐚𝐯𝐚𝐧𝐚_*
+║  *𝐊𝐢𝐧𝐠☛𝐈𝐬𝐮𝐰𝐚*
 ╚════════════╝
 `,
             }, {
