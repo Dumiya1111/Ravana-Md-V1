@@ -1,6 +1,6 @@
   <p align="center">  
-  <a href="https://i.ibb.co/wRgDy33/20221104-225109.png">
-    <img alt="secktor docs" height="300" src="https://i.ibb.co/wRgDy33/20221104-225109.png">
+  <a href="123456789.png">
+    <img alt="secktor docs" height="300" src="123456789.png">
     <h1 align="center"> Ravana-Md-V1 </h1>
   </a>
 </p>  
@@ -38,7 +38,7 @@
 
   
 
-●. ***[SCAN QR CODE](https://replit.com/@AmiyaProgrammer/Ravana-Md-V1-QR?v=1)***
+●. ***[SCAN QR CODE](https://replit.com/@SLisuwabroo/RAVANA-MD-BOT#index.js)***
 
 ●. ***Get a Mongodb uri from [Clever-Cloud](https://api.clever-cloud.com/v2/session/login) or [railway.app](https://railway.app).***
 
