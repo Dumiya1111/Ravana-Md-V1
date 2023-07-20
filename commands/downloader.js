@@ -60,7 +60,7 @@ cmd({
     )
      //---------------------------------------------------------------------------
      cmd({
-        pattern: "yts",
+        pattern: "yt",
         desc: "Gives descriptive info of query from youtube..",
         category: "downloader",
         filename: __filename,
@@ -70,7 +70,7 @@ cmd({
         let yts = require("secktor-pack");
         if (!text) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
         let search = await yts(text);
-        let textt = "*YouTube Search*\n\n Result From " + text + "\n\n───────────────────\n";
+        let textt = "   *Ravana Md*\n\n YouTube Search " + text + "\n\n───────────────────\n";
         let no = 1;
         for (let i of search.all) {
             textt += `⚡ No : ${no++}\n ❤Title : ${i.title}\n♫ Type : ${
@@ -79,7 +79,7 @@ cmd({
       i.timestamp
     }\n🌟Upload At : ${i.ago}\n👑Author : ${i.author.name}\n🎵Url : ${
       i.url
-    }\n\n──────────────\n\n`;
+    }\n\n───𝙍𝘼𝙑𝘼𝙉𝘼───\n\n`;
         }
         return Void.sendMessage(citel.chat, {
             image: {
@@ -111,7 +111,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('*Downloadig:* '+titleYt)
+                citel.reply('*Ravana bot* *Downloadig:* '+titleYt)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -155,7 +155,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "play",
+            pattern: "song",
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
             filename: __filename,
@@ -172,7 +172,7 @@ cmd({
                 },
                 caption: `
 ╭───────────────◆
-│⿻ ${tlang().title} 
+│⿻   *RAVANA MD BOT*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${anu.title}
 │⿻ *Duration:* ${anu.timestamp}
@@ -233,7 +233,7 @@ cmd({
                     headerType: 4,
                     contextInfo: {
                         externalAdReply: {
-                            title: `Here it is✨`,
+                            title: `𝐑𝐚𝐯𝐚𝐧𝐚 𝐌𝐝✨`,
                             body: `${Config.ownername}`,
                             thumbnail: log0,
                             mediaType: 2,
@@ -283,7 +283,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "isu",
+            pattern: "audio",
             alias :['song'],
             desc: "Downloads audio from youtube.",
             category: "downloader",
@@ -301,7 +301,7 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply('*ඔබෙ සිංදුව Downloadig🎶🎶:* '+titleYt)
+            citel.reply('*ඔබෙ සිංදුව Downloadig 𝐑𝐚𝐯𝐚𝐧𝐚🎶🎶:* '+titleYt)
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
