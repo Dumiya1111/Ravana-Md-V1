@@ -1,4 +1,4 @@
-FROM quay.io/dayanisuru/ravana
+FROM quay.io/sampandey001/secktor
 RUN git clone https://github.com/dayanisuru/Ravana-Md /root/dayanisuru
 WORKDIR /root/dayanisuru/
 RUN npm install npm@latest
