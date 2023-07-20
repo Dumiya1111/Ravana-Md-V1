@@ -1,6 +1,6 @@
-FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/SamPandey001/Secktor-Md /root/SamPandey001
-WORKDIR /root/SamPandey001/
+FROM quay.io/dayanisuru/ravana
+RUN git clone https://github.com/dayanisuru/Ravana-Md /root/dayanisuru
+WORKDIR /root/dayanisuru/
 RUN npm install npm@latest
 RUN yarn install --network-concurrency 1
 EXPOSE 8000
